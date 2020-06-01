@@ -25,7 +25,7 @@ def change_size(size):
         x = size[:-1]
         x = float(x) * 1024
         return x
-    elif 'k' == size[-1:]:
+    elif 'k' in size:
         x = size[:-1]
         x = float(x)
         return x
